@@ -38,7 +38,7 @@
   ],
   "author": "Alex-Paris <me@alexparis.dev>",
   "repository": {
-    "url": "git+https://github.com/Alex-Paris/eslint-config.git"
+    "url": "https://github.com/Alex-Paris/eslint-config.git"
   },
   "bugs": {
     "url": "https://github.com/Alex-Paris/eslint-config/issues"
