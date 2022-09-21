@@ -5,15 +5,6 @@
   "description": "ESLint configuration used by Ghosts.",
   "main": "index.js",
   "license": "MIT",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "prettier"
-  ],
-  "author": "Alex-Paris <me@alexparis.dev>",
-  "repository": {
-    "url": "Alex-Paris/eslint-config"
-  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
@@ -39,5 +30,18 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier"
+  ],
+  "author": "Alex-Paris <me@alexparis.dev>",
+  "repository": {
+    "url": "git+https://github.com/Alex-Paris/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-Paris/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Alex-Paris/eslint-config#readme"
 }
