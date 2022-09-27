@@ -5,10 +5,11 @@ module.exports = {
     jest: true,
   },
   extends: [
+    'standard',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'standard',
     'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
