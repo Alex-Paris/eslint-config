@@ -1,4 +1,4 @@
-# Ghost ESLint config
+# Paristech ESLint config
 
 ## Whats included?
 
@@ -11,16 +11,44 @@
 
 ## Setup
 
-1. Install the dependencies
-```
-npm i -D eslint @ghost-code/eslint-config
-```
+### React (with Next.js)
 
-2. Create a `.eslintrc.json` file extending the config:
+Install dependencies:
+```
+npm i -D eslint @paristech/eslint-config
+```
+Inside `.eslintrc.json`
 ```
 {
-  "extends": "@ghost-code/eslint-config/react"
+  "extends": [
+    "@paristech/eslint-config/next", 
+    "next/core-web-vitals"
+  ]
 }
 ```
 
-> You can also use a `.eslintrc.js` instead of JSON if you prefer.
+### React (without Next.js)
+
+Install dependencies:
+```
+npm i -D eslint @paristech/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@paristech/eslint-config/react"
+}
+```
+
+### Node.js
+
+Install dependencies:
+```
+npm i -D eslint @paristech/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@paristech/eslint-config/node"
+}
+```
