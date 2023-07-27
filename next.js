@@ -31,6 +31,7 @@ module.exports = {
       'arrowParens': 'always',
       'semi': false,
       'endOfLine': 'auto',
+      'plugins': ['prettier-plugin-tailwindcss'],
     }],
     'jsx-a11y/alt-text': [
       'warn',
