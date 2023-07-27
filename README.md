@@ -7,6 +7,7 @@
 - React Hooks plugin;
 - JSX a11y plugin;
 - Import Helpers plugin;
+- Automatic tailwind class sorting;
 - Prettier;
 
 ## Setup
