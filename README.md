@@ -30,7 +30,9 @@ Inside `.eslintrc.json`
 (Optional) For a better experience using Import Helpers you can change the path in `tsconfig.json`. This will let the configured path bellow paths components
 ```
 "paths": {
-  "@root/*": ["./app/*"]
+  "@/*": ["./*"]
+  "@app/*": ["./app/*"]
+  "@src/*": ["./src/*"]
 }
 ```
 
@@ -49,7 +51,8 @@ Inside `.eslintrc.json`
 (Optional) For a better experience using Import Helpers you can change the path in `tsconfig.json`. This will let the configured path bellow paths components
 ```
 "paths": {
-  "@root/*": ["./src/*"]
+  "@/*": ["./*"]
+  "@src/*": ["./src/*"]
 }
 ```
 
@@ -68,6 +71,7 @@ Inside `.eslintrc.json`
 (Optional) For a better experience using Import Helpers you can change the path in `tsconfig.json`. This will let the configured path bellow paths components
 ```
 "paths": {
-  "@root/*": ["./src/*"]
+  "@/*": ["./*"]
+  "@src/*": ["./src/*"]
 }
 ```

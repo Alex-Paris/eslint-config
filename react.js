@@ -56,7 +56,8 @@ module.exports = {
         newlinesBetween: 'always',
         groups: [
           'module',
-          '/^@root/',
+          '/^@/',
+          '/^@src/',
           ['parent', 'sibling', 'index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true }
