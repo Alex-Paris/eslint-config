@@ -1,6 +1,6 @@
 {
   "name": "@paristech/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "Alex-Paris <me@alexparis.dev>",
   "type": "module",
   "repository": {
