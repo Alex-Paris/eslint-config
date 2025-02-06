@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import globals from 'globals'
 import typescriptPlugin from '@typescript-eslint/eslint-plugin'
 import typescriptParser from '@typescript-eslint/parser'
 import importHelpers from 'eslint-plugin-import-helpers'
@@ -14,6 +15,10 @@ export default [
         ecmaVersion: 'latest',
         sourceType: 'module',
       },
+      globals: {
+        ...globals.es2025,
+        ...globals.node,
+      }
     },
     plugins: {
       '@typescript-eslint': typescriptPlugin,
